@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/55bb326f70.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/app.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <title>Movie Time</title>
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <nav id="mainNavbar" class="navbar bg-dark navbar-dark navbar-expand-md fixed-top">
+        <div class="container">
+            <a href="#" class="navbar-brand"><i class="fas fa-video mr-2"></i>Movie Time</a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse flex-grow-0" id="navLinks">
+                <ul class="navbar-nav text-right">
+                    <li class="nav-item">
+                        <a href="#bollywood" class="nav-link">Bollywood</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#hollywood" class="nav-link">Hollywood</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#korean_drama" class="nav-link">Korean Drama</a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Collapse the nav links -->
+            <div class="collapse navbar-collapse flex-grow-0" id="navLinks">
+                <ul class="navbar-nav text-right">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link active"><i class="fas fa-home mr-2"></i>Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link"><i class="fas fa-info mr-2"></i>About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="source.html" class="nav-link"><i class="fas fa-question mr-2"></i>Source</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+
+    <!-- Front page using Jumbotron(bootstrap) -->
+    <section id="header" class="jumbotron text-center">
+        <div class="container" style="color: white;">
+            <div class="col-lg-12">
+                <h1 id="headline" class="font-weight-normal">Movies 4 Quarantine</h1>
+                <hr>
+                <p class=" lead font-weight-normal ">Movies that you can watch in quarantine but you need to pay for
+                    watching...</p>
+            </div>
+        </div>
+    </section>
+
+    <br>
+
+    <!-- Gallery section for elements to put in -->
+    <div>
+        <!-- Bollywood Section -->
+        <h2 id="bollywood" class=" font-weight-bold ">Bollywood</h2>
+        <section id=" gBollywood ">
+            <div class=" container ">
+                <div class=" row">
+                    <div class="col-lg-4 mt-3">
+                        <div class=" card border-primary h-70">
+                            <img class=" card-img-top " src=" imgs/movies/lagaan.jpg " alt=" Lagaan ">
+                            <div class=" card-body">
+                                <h5 class=" card-title font-weight-bold">Lagaan</h5>
+                                <hr class="my-4">
+                                <p class="card-text">During the British Raj, a farmer named Bhuvan accepts the challenge
+                                    of Captain
+                                    Andrew Russell to beat his team in a game of cricket and enable his village to not
+                                    pay taxes for
+                                    the next three years.</p>
+                                <a href="https://www.youtube.com/watch?v=oSIGQ0YkFxs" target="_blank"
+                                    class="btn btn-outline-primary btn-sm">Trailer</a>
+                                <a href="javascript:void(0)" class="btn btn-outline-success btn-sm"><i
+                                        class="far fa-thumbs-up"></i></a>
+                                <a href="javascript:void(0)" class="btn btn-outline-danger btn-sm"><i
+                                        class="far fa-thumbs-down"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mt-3">
+                        <div class=" card border-primary h-70">
+                            <img class=" card-img-top " src=" imgs/movies/ddlj.jpg "
+                                alt=" Dilwale Dulhania Le Jayenge ">
+                            <div class=" card-body">
+                                <h5 class=" card-title font-weight-bold">Dilwale Dulhania Le Jayenge</h5>
+                                <hr class="my-4">
+                                <p class="card-text">Raj and Simran meet during a trip across Europe and the two fall in
+                                    love. However, when Raj learns that Simran is already promised to another, he
+                                    follows her to India to win her and her father over.</p>
+                                <a href="https://www.youtube.com/watch?v=cmax1C1p660" target="_blank"
+                                    class="btn btn-outline-primary btn-sm">Trailer</a>
+                                <a href="javascript:void(0)" class="btn btn-outline-success btn-sm"><i
+                                        class="far fa-thumbs-up"></i></a>
+                                <a href="javascript:void(0)" class="btn btn-outline-danger btn-sm"><i
+                                        class="far fa-thumbs-down"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mt-3">
+                        <div class=" card border-primary h-70">
+                            <img class=" card-img-top " src=" imgs/movies/Dangal_Poster.jpg " alt=" Dangal ">
+                            <div class=" card-body">
+                                <h5 class=" card-title font-weight-bold">Dangal</h5>
+                                <hr class="my-4">
+                                <p class="card-text">Mahavir Singh Phogat, a former wrestler, decides to fulfil his
+                                    dream of winning a gold medal for his country by training his daughters for the
+                                    Commonwealth Games despite the existing social stigmas.</p>
+                                <a href="https://www.youtube.com/watch?v=MvXXmj7Wsa4" target="_blank"
+                                    class="btn btn-outline-primary btn-sm">Trailer</a>
+                                <a href="javascript:void(0)" class="btn btn-outline-success btn-sm"><i
+                                        class="far fa-thumbs-up"></i></a>
+                                <a href="javascript:void(0)" class="btn btn-outline-danger btn-sm"><i
+                                        class="far fa-thumbs-down"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mt-3">
+                        <div class=" card border-primary h-70">
+                            <img class=" card-img-top " src=" imgs/movies/3-idiots.jpg " alt=" 3 Idiots ">
+                            <div class=" card-body">
+                                <h5 class=" card-title font-weight-bold">3 Idiots</h5>
+                                <hr class="my-4">
+                                <p class="card-text">In college, Farhan and Raju form a great bond with Rancho due to
+                                    his refreshing outlook. Years later, a bet gives them a chance to look for their
+                                    long-lost friend whose existence seems rather elusive.</p>
+                                <a href="https://www.youtube.com/watch?v=oSIGQ0YkFxs" target="_blank"
+                                    class="btn btn-outline-primary btn-sm">Trailer</a>
+                                <a href="javascript:void(0)" class="btn btn-outline-success btn-sm"><i
+                                        class="far fa-thumbs-up"></i></a>
+                                <a href="javascript:void(0)" class="btn btn-outline-danger btn-sm"><i
+                                        class="far fa-thumbs-down"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mt-3">
+                        <div class=" card border-primary h-70">
+                            <img class=" card-img-top " src=" imgs/movies/aamir-khan-pk.webp " alt=" pk ">
+                            <div class=" card-body">
+                                <h5 class=" card-title font-weight-bold"> pk </h5>
+                                <hr class="my-4">
+                                <p class="card-text">An innocent alien lands on Earth but loses his communication
+                                    device. He meets Jaggu, a heartbroken reporter, and tries to find his device. With
+                                    time, he raises many thought-provoking questions.</p>
+                                <a href="https://www.youtube.com/watch?v=SOXWc32k4zA" target="_blank"
+                                    class="btn btn-outline-primary btn-sm">Trailer</a>
+                                <a href="javascript:void(0)" class="btn btn-outline-success btn-sm"><i
+                                        class="far fa-thumbs-up"></i></a>
+                                <a href="javascript:void(0)" class="btn btn-outline-danger btn-sm"><i
+                                        class="far fa-thumbs-down"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mt-3">
+                        <div class=" card border-primary h-70">
+                            <img class=" card-img-top " src=" imgs/movies/Bajrangi-Bhaijaan.jpg "
+                                alt=" Bajrangi Bhaijaan ">
+                            <div class=" card-body">
+                                <h5 class=" card-title font-weight-bold"> Bajrangi Bhaijaan </h5>
+                                <hr class="my-4">
+                                <p class="card-text">Pawan, a devotee of Lord Hanuman, finds a girl, who is speech
+                                    impaired, lost in Haryana. He soon learns that she belongs to Pakistan and sets out
+                                    to reunite her with her family at great personal cost.</p>
+                                <a href="https://www.youtube.com/watch?v=4nwAra0mz_Q" target="_blank"
+                                    class="btn btn-outline-primary btn-sm">Trailer</a>
+                                <a href="javascript:void(0)" class="btn btn-outline-success btn-sm"><i
+                                        class="far fa-thumbs-up"></i></a>
+                                <a href="javascript:void(0)" class="btn btn-outline-danger btn-sm"><i
+                                        class="far fa-thumbs-down"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <br>
+    <br>
+    <div>
+        <!-- Hollywood Scetion -->
+        <h2 id="hollywood" class=" font-weight-bold ">Hollywood</h2>
+        <section id=" gHollywood ">
+            <div class=" container ">
+                <div class=" row">
+                    <div class="col-lg-4 mt-3">
+                        <div class=" card border-primary h-70">
+                            <img class=" card-img-top " src=" imgs/movies/Avenger-Endgame.jpg "
+                                alt=" Avengers: Endgame ">
+                            <div class=" card-body">
+                                <h5 class=" card-title font-weight-bold">Avengers: Endgame</h5>
+                                <hr class="my-4">
+                                <p class="card-text">After Thanos, an intergalactic warlord, disintegrates half of
+                                    the
+                                    universe, the Avengers must reunite and assemble again to reinvigorate their
+                                    trounced allies and restore balance.</p>
+                                <a href="https://www.youtube.com/watch?v=NQvgsIgs56g" target="_blank"
+                                    class="btn btn-outline-primary btn-sm">Trailer</a>
+                                <a href="javascript:void(0)" class="btn btn-outline-success btn-sm"><i
+                                        class="far fa-thumbs-up"></i></a>
+                                <a href="javascript:void(0)" class="btn btn-outline-danger btn-sm"><i
+                                        class="far fa-thumbs-down"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mt-3">
+                        <div class=" card border-primary h-70">
+                            <img class=" card-img-top " src=" imgs/movies/MI-Fallout.jpg "
+                                alt=" Mission: Impossible – Fallout ">
+                            <div class=" card-body">
+                                <h5 class=" card-title font-weight-bold">Mission: Impossible – Fallout</h5>
+                                <hr class="my-4">
+                                <p class="card-text">A group of terrorists plans to detonate three plutonium cores
+                                    for a
+                                    simultaneous nuclear attack on different cities. Ethan Hunt, along with his IMF
+                                    team, sets out to stop the carnage.</p>
+                                <a href="https://www.youtube.com/watch?v=_qIrNQ1ttfI" target="_blank"
+                                    class="btn btn-outline-primary btn-sm">Trailer</a>
+                                <a href="javascript:void(0)" class="btn btn-outline-success btn-sm"><i
+                                        class="far fa-thumbs-up"></i></a>
+                                <a href="javascript:void(0)" class="btn btn-outline-danger btn-sm"><i
+                                        class="far fa-thumbs-down"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mt-3">
+                        <div class=" card border-primary h-70">
+                            <img class=" card-img-top " src=" imgs/movies/wall-e.jpeg " alt=" WALL-E ">
+                            <div class=" card-body">
+                                <h5 class=" card-title font-weight-bold">WALL-E</h5>
+                                <hr class="my-4">
+                                <p class="card-text">A machine responsible for cleaning a waste-covered Earth meets
+                                    another robot and falls in love with her. Together, they set out on a journey
+                                    that
+                                    will alter the fate of mankind.</p>
+                                <a href="https://www.youtube.com/watch?v=qGBZWbg_26A" target="_blank"
+                                    class="btn btn-outline-primary btn-sm">Trailer</a>
+                                <a href="javascript:void(0)" class="btn btn-outline-success btn-sm"><i
+                                        class="far fa-thumbs-up"></i></a>
+                                <a href="javascript:void(0)" class="btn btn-outline-danger btn-sm"><i
+                                        class="far fa-thumbs-down"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mt-3">
+                        <div class=" card border-primary h-70">
+                            <img class=" card-img-top " src=" imgs/movies/big-hero-6.webp " alt=" Big Hero 6 ">
+                            <div class=" card-body">
+                                <h5 class=" card-title font-weight-bold">Big Hero 6</h5>
+                                <hr class="my-4">
+                                <p class="card-text">Hiro, a robotics prodigy, joins hands with Baymax in order to
+                                    avenge his brother's death. They then team up with Hiro's friends to form a team
+                                    of
+                                    high-tech heroes.</p>
+                                <a href="https://www.youtube.com/watch?v=IxHwJLD-xkw" target="_blank"
+                                    class="btn btn-outline-primary btn-sm">Trailer</a>
+                                <a href="javascript:void(0)" class="btn btn-outline-success btn-sm"><i
+                                        class="far fa-thumbs-up"></i></a>
+                                <a href="javascript:void(0)" class="btn btn-outline-danger btn-sm"><i
+                                        class="far fa-thumbs-down"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mt-3">
+                        <div class=" card border-primary h-70">
+                            <img class=" card-img-top " src=" imgs/movies/Free_Guy.jpg " alt=" Free Guy ">
+                            <div class=" card-body">
+                                <h5 class=" card-title font-weight-bold"> Free Guy </h5>
+                                <hr class="my-4">
+                                <p class="card-text">A bank teller called Guy realizes he is a background character
+                                    in
+                                    an open world video game called Free City that will soon go offline.</p>
+                                <a href="https://www.youtube.com/watch?v=X2m-08cOAbc" target="_blank"
+                                    class="btn btn-outline-primary btn-sm">Trailer</a>
+                                <a href="javascript:void(0)" class="btn btn-outline-success btn-sm"><i
+                                        class="far fa-thumbs-up"></i></a>
+                                <a href="javascript:void(0)" class="btn btn-outline-danger btn-sm"><i
+                                        class="far fa-thumbs-down"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mt-3">
+                        <div class=" card border-primary h-70">
+                            <img class=" card-img-top " src=" imgs/movies/wonder-woman-kneel.jpg " alt=" Wonder Woman ">
+                            <div class=" card-body">
+                                <h5 class=" card-title font-weight-bold"> Wonder Woman </h5>
+                                <hr class="my-4">
+                                <p class="card-text">Princess Diana of an all-female Amazonian race rescues US pilot
+                                    Steve. Upon learning of a war, she ventures into the world of men to stop Ares,
+                                    the
+                                    god of war, from destroying mankind.</p>
+                                <a href="https://www.youtube.com/watch?v=JCb058p1mDE" target="_blank"
+                                    class="btn btn-outline-primary btn-sm">Trailer</a>
+                                <a href="javascript:void(0)" class="btn btn-outline-success btn-sm"><i
+                                        class="far fa-thumbs-up"></i></a>
+                                <a href="javascript:void(0)" class="btn btn-outline-danger btn-sm"><i
+                                        class="far fa-thumbs-down"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <br>
+    <br>
+    <div>
+        <!-- Korean Drama Scetion -->
+        <h2 id="korean_drama" class=" font-weight-bold ">Korean Drama</h2>
+        <section id=" gKorean ">
+            <div class=" container ">
+                <div class=" row">
+                    <div class="col-lg-4 mt-3">
+                        <div class=" card border-primary h-70">
+                            <img class=" card-img-top " src=" imgs/movies/healer.jpg " alt=" Healer ">
+                            <div class=" card-body">
+                                <h5 class=" card-title font-weight-bold">Healer</h5>
+                                <hr class="my-4">
+                                <p class="card-text">A fighter posing as a night courier agrees to protect a tabloid
+                                    journalist whose investigation into a long-buried tragedy makes her a target for
+                                    assassination.</p>
+                                <a href="https://www.youtube.com/watch?v=zwbwmYi0nlo" target="_blank"
+                                    class="btn btn-outline-primary btn-sm">Trailer</a>
+                                <a href="javascript:void(0)" class="btn btn-outline-success btn-sm"><i
+                                        class="far fa-thumbs-up"></i></a>
+                                <a href="javascript:void(0)" class="btn btn-outline-danger btn-sm"><i
+                                        class="far fa-thumbs-down"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mt-3">
+                        <div class=" card border-primary h-70">
+                            <img class=" card-img-top " src=" imgs/movies/The_World_of_the_Married.jpg "
+                                alt=" The World of the Married ">
+                            <div class=" card-body">
+                                <h5 class=" card-title font-weight-bold">The World of the Married</h5>
+                                <hr class="my-4">
+                                <p class="card-text">The World of the Married is a 2020 South Korean television series
+                                    starring Kim Hee-ae and Park Hae-joon. Based on the British television series Doctor
+                                    Foster, it premiered on JTBC on March 27, 2020.</p>
+                                <a href="https://www.youtube.com/watch?v=c34Bw_bKbF0" target="_blank"
+                                    class="btn btn-outline-primary btn-sm">Trailer</a>
+                                <a href="javascript:void(0)" class="btn btn-outline-success btn-sm"><i
+                                        class="far fa-thumbs-up"></i></a>
+                                <a href="javascript:void(0)" class="btn btn-outline-danger btn-sm"><i
+                                        class="far fa-thumbs-down"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mt-3">
+                        <div class=" card border-primary h-70">
+                            <img class=" card-img-top " src=" imgs/movies/Golbin_Poster.jpg "
+                                alt=" Guardian: The Lonely and Great God ">
+                            <div class=" card-body">
+                                <h5 class=" card-title font-weight-bold">Guardian: The Lonely and Great God</h5>
+                                <hr class="my-4">
+                                <p class="card-text">Gong Yoo in the title role with Kim Go-eun, Lee Dong-wook, Yoo
+                                    In-na, and Yook Sung-jae. The drama was written by popular drama writer Kim
+                                    Eun-sook.</p>
+                                <a href="https://www.youtube.com/watch?v=8AcNEVUzV4o" target="_blank"
+                                    class="btn btn-outline-primary btn-sm">Trailer</a>
+                                <a href="javascript:void(0)" class="btn btn-outline-success btn-sm"><i
+                                        class="far fa-thumbs-up"></i></a>
+                                <a href="javascript:void(0)" class="btn btn-outline-danger btn-sm"><i
+                                        class="far fa-thumbs-down"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mt-3">
+                        <div class=" card border-primary h-70">
+                            <img class=" card-img-top " src=" imgs/movies/Crash_Landing_on_You_main_poster.jpg "
+                                alt=" Crash Landing on You ">
+                            <div class=" card-body">
+                                <h5 class=" card-title font-weight-bold">Crash Landing on You</h5>
+                                <hr class="my-4">
+                                <p class="card-text">A paragliding mishap drops a South Korean heiress in North Korea -
+                                    and into the life of an army officer, who decides he will help her hide.</p>
+                                <a href="https://www.youtube.com/watch?v=eXMjTXL2Vks" target="_blank"
+                                    class="btn btn-outline-primary btn-sm">Trailer</a>
+                                <a href="javascript:void(0)" class="btn btn-outline-success btn-sm"><i
+                                        class="far fa-thumbs-up"></i></a>
+                                <a href="javascript:void(0)" class="btn btn-outline-danger btn-sm"><i
+                                        class="far fa-thumbs-down"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mt-3">
+                        <div class=" card border-primary h-70">
+                            <img class=" card-img-top " src=" imgs/movies/Hotel_Del_Luna.jpg " alt=" Hotel del Luna ">
+                            <div class=" card-body">
+                                <h5 class=" card-title font-weight-bold"> Hotel del Luna </h5>
+                                <hr class="my-4">
+                                <p class="card-text">Located in the middle of Seoul, Hotel del Luna is the eponymous
+                                    hotel that caters only to ghosts; the beautiful but ill-tempered CEO is cursed to
+                                    manage the hotel due to a terrible crime she committed, but cannot remember.</p>
+                                <a href="https://www.youtube.com/watch?v=lJ3_1v8sB48" target="_blank"
+                                    class="btn btn-outline-primary btn-sm">Trailer</a>
+                                <a href="javascript:void(0)" class="btn btn-outline-success btn-sm"><i
+                                        class="far fa-thumbs-up"></i></a>
+                                <a href="javascript:void(0)" class="btn btn-outline-danger btn-sm"><i
+                                        class="far fa-thumbs-down"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mt-3">
+                        <div class=" card border-primary h-70">
+                            <img class=" card-img-top " src=" imgs/movies/Memories_of_the_Alhambra.jpg "
+                                alt=" Memories of the Alhambra ">
+                            <div class=" card-body">
+                                <h5 class=" card-title font-weight-bold"> Memories of the Alhambra </h5>
+                                <hr class="my-4">
+                                <p class="card-text">While searching for the cryptic creator of an innovative augmented
+                                    reality game, an investment firm executive meets a woman who runs a hostel in Spain.
+                                </p>
+                                <a href="https://www.youtube.com/watch?v=2Lcy3XUDd_A" target="_blank"
+                                    class="btn btn-outline-primary btn-sm">Trailer</a>
+                                <a href="javascript:void(0)" class="btn btn-outline-success btn-sm"><i
+                                        class="far fa-thumbs-up"></i></a>
+                                <a href="javascript:void(0)" class="btn btn-outline-danger btn-sm"><i
+                                        class="far fa-thumbs-down"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <br>
+    <br>
+
+    <script src=" https://code.jquery.com/jquery-3.4.1.slim.min.js "
+        integrity=" sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n "
+        crossorigin=" anonymous "></script>
+    <script src=" https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js "
+        integrity=" sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo "
+        crossorigin=" anonymous "></script>
+    <script src=" https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js "
+        integrity=" sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6 "
+        crossorigin=" anonymous "></script>
+</body>
+
+</html>
